@@ -2,21 +2,31 @@
   "name": "eng-growth",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": "https://github.com/Medium/eng-growth",
+  "repository": "https://github.com/pluralcom/snowflake",
   "license": "MIT",
   "dependencies": {
-    "d3": "^4.11.0",
-    "next": "^9.0.7",
+    "@types/react-select": "^4.0.17",
+    "antd": "^4.16.9",
+    "d3": "6.7.0",
+    "next": "^11.0.1",
+    "rc-drawer": "^4.4.0",
+    "rc-textarea": "^0.3.4",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "react-markdown": "^6.0.2",
+    "react-select": "^4.3.1",
+    "remark-gfm": "^1.0.0",
+    "styled-components": "^5.3.0"
   },
   "scripts": {
-    "dev": "next",
-    "export": "next build && next export",
-    "flow": "flow"
+    "dev": "next -p 3002",
+    "export": "next build && next export"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
-    "flow-bin": "^0.57.2"
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.13",
+    "flow-bin": "^0.57.2",
+    "typescript": "^4.3.5"
   }
 }
